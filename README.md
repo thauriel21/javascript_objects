@@ -23,5 +23,17 @@ var obj = {}
 
 Los arreglos se declaran utilizando `[]` y los objestos se declaran con llaves `{}`.
 
-Los arreglos tienen sus elementos ordenados por indices, en cambio los objetos no tienen indice sus elementos se rescatan u obtienen mediante **llaves**.
- Ejemplo
+Los arreglos tienen sus elementos ordenados por indices, en cambio los objetos no tienen indice.
+ Sus elementos se rescatan u obtienen mediante **llaves**.   
+ Ejemplo:
+ ``` javascript
+ var hero = {
+    name: "Thor",
+    weapon: "martillo",
+    hair: "rubio"
+ }
+ console.log(hero["name"])
+ console.log(hero["weapon"])
+ console.log(hero["hair"])
+ ```
+ 
