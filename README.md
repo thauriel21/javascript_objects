@@ -37,3 +37,8 @@ Los arreglos tienen sus elementos ordenados por indices, en cambio los objetos n
  console.log(hero["hair"])
  ```
  
+ ```javascript
+ console.log(hero.name)
+ console.log(hero.weapon)
+ console.log(hero.hair)
+ 
